@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avoid the Bomb</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <p><div id="scoreBox">Score: 0</div></p>
+    <p><div id="hiscoreBox">High Score: 0</div></p>
+    <p><div id="lifeLine">3</div></p>
+    <img src="img/life.png" id="life">
+    
+    <div class="wrap">
+      <header>Avoid the Bomb</header>
+      <div class="game-wrapper">
+        <div class="main"></div>
+        <div class="lose">
+          <h1>GAME OVER</h1>
+          <h2>Better luck next time!</h2>
+          <button class="btn" onclick="window.location.reload()">
+            Restart
+          </button>
+        </div>
+        <div class="win">
+          <h1>YOU WIN!</h1>
+          <h2>Congratulations!</h2>
+          <button class="btn" onclick="window.location.reload()">
+            Restart
+          </button>
+        </div>
+      </div>
+      <script src="main.js"></script>
+      <footer></footer>
+    </div>
+  </body>
+</html>
